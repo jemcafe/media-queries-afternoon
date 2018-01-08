@@ -1,0 +1,108 @@
+.App {
+  text-align: center;
+}
+
+.panel {
+  width: 1100px;
+  margin: 0 auto;
+  background-color: rgb(252, 247, 203);
+}
+
+/*  Header  */
+
+.header {
+  background-color: rgb(252, 175, 175);
+}
+
+.header-wrapper {
+  background-color: rgb(175, 217, 252);
+}
+
+.header .title {
+  background-color: rgb(179, 233, 235);
+}
+
+.header .nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(192, 235, 168);
+}
+
+.header .menu {
+  background-color: rgb(179, 233, 235);
+}
+
+.header .greeting {
+  background-color: rgb(235, 198, 149);
+}
+
+/*  Main  */
+
+.main-content {
+  background-color: rgb(192, 235, 168);
+}
+
+.main-content-wrapper {
+  background-color: rgb(175, 217, 252);
+}
+
+/*  Aside  */
+
+.aside-contact {
+  background-color: rgb(235, 198, 149);
+}
+
+.aside-contact-wrapper {
+  background-color: rgb(192, 235, 168);
+}
+
+.aside-contact .title-wrapper {
+  background-color: rgb(235, 198, 149);
+}
+
+.aside-contact .message-wrapper {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(175, 217, 252);
+}
+
+.aside-contact .sender-contact-input {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(235, 198, 149);
+}
+
+/*  Footer  */
+
+.footer {
+  background-color: rgb(175, 217, 252);
+}
+
+.footer-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(252, 175, 175);
+}
+
+.footer .copyright {
+  background-color: rgb(192, 235, 168);
+}
+
+.footer .social-media {
+  display: flex;
+  background-color: rgb(168, 233, 235);
+}
+
+.footer .icon {
+  width: 40px;
+  height: 40px;
+  background-color: rgb(108, 116, 228);
+  border-radius: 50%;
+  margin: 0 5px;
+}
+
+.footer .policy-menu {
+  background-color: rgb(192, 235, 168);
+}
