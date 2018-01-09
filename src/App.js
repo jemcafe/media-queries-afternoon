@@ -37,16 +37,16 @@ class App extends Component {
    
                   <div className="title-wrapper">
                      <div className="title">CONTACT US</div>
-                     <div className="sub-title">Lorem ipsum dolor sit amet consectetur.</div>
+                     <div className="subtitle">Lorem ipsum dolor sit amet consectetur.</div>
                   </div>
 
                   <div className="message-wrapper">
-                     <div className="sender-contact-input">
-                        <input className="name-input"/>
-                        <input className="email-input"/>
-                        <input className="phone-input"/>
+                     <div className="sender-contact-input input-size">
+                        <input className="name-input" placeholder="Your Name*"/>
+                        <input className="email-input" placeholder="Your Email*"/>
+                        <input className="phone-input" placeholder="Your Phone*"/>
                      </div>
-                     <input className="message-input"/>
+                     <input className="message-input input-size" placeholder="Your Message*"/>
                   </div>
 
                   <button className="send-btn">SEND MESSAGE</button>
@@ -59,7 +59,7 @@ class App extends Component {
                   
                   <div className="copyright">Copyright &copy; Your Website 2017</div>
 
-                  <div className="social-media">
+                  <div className="social-media-icons">
                      <div className="twitter icon"></div>
                      <div className="facebook icon"></div>
                      <div className="linkedin icon"></div>

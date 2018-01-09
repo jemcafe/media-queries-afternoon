@@ -8,9 +8,27 @@
   background-color: rgb(252, 247, 203);
 }
 
+.text-white {
+  color: white;
+}
+.text-yellow {
+  color: #fed136;
+}
+.text-black {
+  color: black;
+}
+
+.btn-style {
+  border: none;
+  border-radius: 10%;
+  color: white;
+  background-color: #fed136;
+}
+
 /*  Header  */
 
 .header {
+  border: 1px solid rgb(160, 160, 160);
   background-color: rgb(252, 175, 175);
 }
 
@@ -40,6 +58,7 @@
 /*  Main  */
 
 .main-content {
+  border: 1px solid rgb(160, 160, 160);
   background-color: rgb(192, 235, 168);
 }
 
@@ -50,6 +69,7 @@
 /*  Aside  */
 
 .aside-contact {
+  border: 1px solid rgb(160, 160, 160);
   background-color: rgb(235, 198, 149);
 }
 
@@ -67,6 +87,10 @@
   background-color: rgb(175, 217, 252);
 }
 
+.input-size {
+  width: 100%;
+}
+
 .aside-contact .sender-contact-input {
   display: flex;
   flex-direction: column;
@@ -76,6 +100,7 @@
 /*  Footer  */
 
 .footer {
+  border: 1px solid rgb(160, 160, 160);
   background-color: rgb(175, 217, 252);
 }
 
@@ -83,6 +108,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 0 70px;
+  box-sizing: border-box;
   background-color: rgb(252, 175, 175);
 }
 
@@ -90,9 +117,10 @@
   background-color: rgb(192, 235, 168);
 }
 
-.footer .social-media {
+.footer .social-media-icons {
   display: flex;
   background-color: rgb(168, 233, 235);
+  margin-right: 2.2%;
 }
 
 .footer .icon {
